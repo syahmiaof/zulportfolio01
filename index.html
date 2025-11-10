@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Scroll Progress Indicator -->
+    <div class="scroll-progress"></div>
+    
+    <!-- SEO Meta Tags -->
+    <title>Zulqarnain Abu Hassan | Journalist, Lecturer, Instructor</title>
+    <meta name="description" content="Personal portfolio for Zulqarnain Abu Hassan, a journalist, lecturer, and Silat Gayong instructor based in Malaysia.">
+    <meta name="keywords" content="Zulqarnain Abu Hassan, Journalist, Lecturer, Silat Gayong, Mass Communication, Media, Storytelling">
+    
+    <!-- Favicon (Elegant Gold 'Z') -->
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='%231C2331'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='Playfair Display, serif' font-size='70' fill='%23F4C430'%3EZ%3C/text%3E%3C/svg%3E">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- AOS (Animate on Scroll) Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- 1. Header & Navigation -->
+    <header id="main-header">
+        <div class="container">
+            <a href="#hero" class="logo">Zulqarnain<span>.</span>A<span>.</span>H</a>
+            
+            <!-- Desktop Navigation -->
+            <ul class="nav-links">
+                <li><a href="#hero" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li>
+                    <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                </li>
+            </ul>
+            
+            <!-- Mobile Menu Toggle -->
+            <button class="menu-toggle" id="menu-toggle-btn" aria-label="Open navigation menu">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+    
+    <!-- Mobile Navigation Menu -->
+    <nav class="mobile-nav-menu" id="mobile-nav">
+        <button class="close-btn" id="close-menu-btn" aria-label="Close navigation menu">
+            <i class="fas fa-times"></i>
+        </button>
+        <ul class="mobile-links">
+            <li><a href="#hero" class="mobile-nav-link">Home</a></li>
+            <li><a href="#about" class="mobile-nav-link">About</a></li>
+            <li><a href="#experience" class="mobile-nav-link">Experience</a></li>
+            <li><a href="#gallery" class="mobile-nav-link">Gallery</a></li>
+            <li><a href="#contact" class="mobile-nav-link">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content Area -->
+    <main>
+
+        <!-- 2. Hero Section -->
+        <section id="hero">
+            <div class="hero-content" data-aos="fade-in" data-aos-delay="200">
+                <h1>Zulqarnain Abu Hassan</h1>
+                <div class="subtitle">
+                    <span id="typing-text"></span>
+                    <span class="typing-cursor"></span>
+                </div>
+                <p class="tagline">Empowering minds and preserving culture through storytelling and discipline.</p>
+                <a href="#about" class="btn btn-outline">Learn More</a>
+            </div>
+        </section>
+
+        <!-- 3. About Section -->
+        <section id="about">
+            <div class="container">
+                <!-- Profile Image -->
+                <div class="about-image" data-aos="fade-right">
+                    <img src="https://placehold.co/400x500/1C2331/F4C430?text=Z.A.H" alt="Zulqarnain Abu Hassan">
+                </div>
+                
+                <!-- About Content -->
+                <div class="about-content" data-aos="fade-left" data-aos-delay="200">
+                    <h2 class="section-title">About Me</h2>
+                    <p class="intro">
+                        Hi, I’m Zulqarnain Abu Hassan — a journalist, lecturer, and Silat Gayong instructor.
+                    </p>
+                    <p>
+                        My work revolves around people, culture, and storytelling — from classroom insights and community engagement to the discipline of martial arts.
+                    </p>
+                    <p>
+                        I am currently an entertainment journalist and academic in mass communication, passionate about developing young storytellers who think critically and write with heart.
+                    </p>
+                    <p>
+                        Beyond the newsroom and classroom, I serve as a Silat Gayong instructor, mentoring young pesilat to uphold discipline, heritage, and respect through traditional martial arts.
+                    </p>
+                    <p>
+                        My approach combines modern media practice and cultural grounding, reflecting a belief that education and storytelling can empower communities.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. Experience Section -->
+        <section id="experience">
+            <div class="container">
+                <h2 class="section-title light">My Work & Passion</h2>
+                <div class="experience-grid">
+                    <!-- Card 1: Journalist -->
+                    <div class="exp-card" data-aos="fade-up">
+                        <i class="fas fa-feather-alt"></i>
+                        <h3>Entertainment Journalist</h3>
+                        <p>Covering the vibrant world of arts, culture, and the creative industries with insightful storytelling and critical analysis.</p>
+                    </div>
+                    
+                    <!-- Card 2: Lecturer -->
+                    <div class="exp-card" data-aos="fade-up" data-aos-delay="200">
+                        <i class="fas fa-chalkboard-teacher"></i>
+                        <h3>Lecturer in Mass Comm</h3>
+                        <p>Focusing on writing, media ethics, and critical thinking to develop the next generation of passionate and responsible storytellers.</p>
+                    </div>
+                    
+                    <!-- Card 3: Silat Instructor -->
+                    <div class="exp-card" data-aos="fade-up" data-aos-delay="400">
+                        <i class="fas fa-fist-raised"></i>
+                        <h3>Silat Gayong Instructor</h3>
+                        <p>Leading youth in traditional martial arts training, instilling discipline, and focusing on the preservation of cultural heritage.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. Gallery Section -->
+        <section id="gallery">
+            <div class="container">
+                <h2 class="section-title">Gallery</h2>
+                <div class="gallery-grid">
+                    <!-- Use placeholder images. Replace src with your actual image paths. -->
+                    
+                    <!-- Item 1 (Large) -->
+                    <a href="https://placehold.co/800x600/1C2331/eee?text=Silat+Event" class="gallery-item" data-aos="fade-up">
+                        <img src="https://placehold.co/800x600/1C2331/eee?text=Silat+Event" alt="Silat Event">
+                        <div class="overlay">
+                            <i class="fas fa-search-plus"></i>
+                            <p>Silat Event</p>
+                        </div>
+                    </a>
+                    
+                    <!-- Item 2 -->
+                    <a href="https://placehold.co/600x400/333/eee?text=Classroom" class="gallery-item" data-aos="fade-up" data-aos-delay="100">
+                        <img src="https://placehold.co/600x400/333/eee?text=Classroom" alt="Classroom">
+                        <div class="overlay">
+                            <i class="fas fa-search-plus"></i>
+                            <p>Classroom</p>
+                        </div>
+                    </a>
+                    
+                    <!-- Item 3 -->
+                    <a href="https://placehold.co/600x400/444/eee?text=Fieldwork" class="gallery-item" data-aos="fade-up" data-aos-delay="200">
+                        <img src="https://placehold.co/600x400/444/eee?text=Fieldwork" alt="Fieldwork">
+                        <div class="overlay">
+                            <i class="fas fa-search-plus"></i>
+                            <p>Fieldwork</p>
+                        </div>
+                    </a>
+                    
+                    <!-- Item 4 -->
+                    <a href="https://placehold.co/600x400/555/eee?text=Speaking" class="gallery-item" data-aos="fade-up" data-aos-delay="100">
+                        <img src="https://placehold.co/600x400/555/eee?text=Speaking" alt="Speaking">
+                        <div class="overlay">
+                            <i class="fas fa-search-plus"></i>
+                            <p>Speaking</p>
+                        </div>
+                    </a>
+                    
+                    <!-- Item 5 -->
+                    <a href="https://placehold.co/600x400/666/eee?text=Training" class="gallery-item" data-aos="fade-up" data-aos-delay="200">
+                        <img src="https://placehold.co/600x400/666/eee?text=Training" alt="Training">
+                        <div class="overlay">
+                            <i class="fas fa-search-plus"></i>
+                            <p>Training</p>
+                        </div>
+                    </a>
+                    
+                    <!-- Item 6 -->
+                    <a href="https://placehold.co/600x400/777/eee?text=Community" class="gallery-item" data-aos="fade-up" data-aos-delay="100">
+                        <img src="https://placehold.co/600x400/777/eee?text=Community" alt="Community">
+                        <div class="overlay">
+                            <i class="fas fa-search-plus"></i>
+                            <p>Community</p>
+                        </div>
+                    </a>
+                    
+                    <!-- Item 7 -->
+                    <a href="https://placehold.co/600x400/888/eee?text=Writing" class="gallery-item" data-aos="fade-up" data-aos-delay="200">
+                        <img src="https://placehold.co/600x400/888/eee?text=Writing" alt="Writing">
+                        <div class="overlay">
+                            <i class="fas fa-search-plus"></i>
+                            <p>Writing</p>
+                        </div>
+                    </a>
+                    
+                    <!-- Item 8 (Medium) -->
+                    <a href="https://placehold.co/800x400/2c3e50/eee?text=Workshop" class="gallery-item" data-aos="fade-up" data-aos-delay="300">
+                        <img src="https://placehold.co/800x400/2c3e50/eee?text=Workshop" alt="Workshop">
+                        <div class="overlay">
+                            <i class="fas fa-search-plus"></i>
+                            <p>Workshop</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- 6. Contact Section -->
+        <section id="contact">
+            <div class="container contact-container" data-aos="fade-up">
+                <h2 class="section-title light">Get In Touch</h2>
+                <p>
+                    I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.
+                </p>
+                
+                <form id="contact-form" class="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+                    <p id="form-message"></p>
+                </form>
+                
+                <div class="social-links">
+                    <h4>Connect with me</h4>
+                    <div class="social-icons">
+                        <a href="#" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-square"></i></a>
+                        <a href="#" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="mailto:zulqarnain.contact@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- 7. Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Zulqarnain Abu Hassan. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- AOS (Animate on Scroll) Library JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
+</body>
+</html>
